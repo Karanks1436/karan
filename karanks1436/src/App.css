@@ -1,0 +1,174 @@
+/* .sidebar {
+  position: fixed;
+  width: 200px;
+  font-family: serif;
+  height: 100%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(17px);
+
+} */
+
+
+.back{
+  background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  min-height: 80vh;
+  animation: backg 20s ease infinite;
+  /* margin-left: 28.5vh; */
+}
+@keyframes backg{
+  25%{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+    background-size: cover;
+    min-height: 80vh;
+  }
+  50%{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://us.123rf.com/450wm/mirzamlk/mirzamlk2001/mirzamlk200100541/138179187-close-up-shot-of-banyan-tree-paste-in-a-clay-bowl-on-black-glossy-surface-along-with-some-dried-leaf.jpg?ver=6);
+    background-size: cover;
+    min-height: 80vh;
+  } 
+  75%{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://static4.depositphotos.com/1003326/319/i/450/depositphotos_3191160-stock-photo-blurry-bright-background.jpg);
+    background-size: cover;
+    min-height: 80vh;
+  } 
+  100%{
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_640.jpg);
+    background-size: cover;
+    min-height: 80vh;
+  }
+}
+
+.start{
+  overflow: hidden;
+  font-style: italic;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tst{
+  background: rgb(189, 185, 185);
+}
+
+.image{
+  border-radius: 50%;
+}
+
+.image2{
+  border-radius: 20%;
+}
+
+.imag{
+  border-style: outset;
+}
+
+.stat{
+  background: url(https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg);
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.cnt{
+background: url(https://t3.ftcdn.net/jpg/05/56/29/10/360_F_556291020_q2ieMiOCKYbtoLITrnt7qcSL1LJYyWrU.jpg);
+background-size: cover;
+animation: abc 20s ease infinite;
+}
+@keyframes abc{
+  50%{
+    background: url(https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg);
+    background-size: cover;
+  }
+  100%{
+    background: url(https://theinpaint.com/images/example-1-2.jpg);
+    background-size: cover;
+  }
+}
+
+.log {
+  background: url(https://miro.medium.com/v2/resize:fit:1358/1*dXZlIr4SkImf5KC_eYhLKw.gif);
+  background-size: cover;
+  min-height: 100vh;
+  font-family: serif;
+}
+
+.log1 {
+  background: url(https://miro.medium.com/v2/resize:fit:1358/1*dXZlIr4SkImf5KC_eYhLKw.gif);
+}
+
+.reg {
+  background: url(https://img.freepik.com/free-photo/office-supplies_23-2148103974.jpg);
+  background-size: cover;
+  overflow: hidden;
+  min-height: 100vh;
+  font-family: serif;
+}
+
+.reg1 {
+  background: url(https://img.freepik.com/free-photo/office-supplies_23-2148103974.jpg);
+  background-size: 0;
+}
+
+/* .reg2 {
+  margin-left: 200px;
+} */
+
+.ks{
+ text-indent: 100px;
+  text-shadow: 3px 3px 4px grey;
+  animation: aaa 10s ease ;
+}
+
+
+@keyframes aaa{
+  1%{
+
+    transform: skew(180deg);
+    /* transform: scale(3); */
+
+  }
+}
+
+.gal{
+  background: url(https://img.freepik.com/free-vector/geometric-shapes-neon-lights-background_23-2148445830.jpg?q=10&h=200);
+  background-size: cover;
+}
+
+.tdo{
+  background: url(https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1713139200&semt=sph);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+
+
+.tdo2{
+  background: url(https://img.freepik.com/free-photo/colorful-design-with-spiral-design_188544-9588.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1713139200&semt=sph);
+  background-size: 0;
+}
+
+.nvb{
+  cursor: alias;
+  
+}
+
+.bdy2{
+  background: rgb(255, 255, 255);
+  height: 480px;
+  background-size: 0%;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bdy{
+  background-image:  url(https://as1.ftcdn.net/v2/jpg/05/11/15/48/1000_F_511154814_62jWTXOzW1WDNy0YSO6dScrsF9eb6Dbg.jpg);
+  height: 80.4vh;
+  background-size: cover;
+  width: 100%;
+ 
+}
